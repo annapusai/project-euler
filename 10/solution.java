@@ -1,7 +1,7 @@
 import java.math.*;
 public class helloworld 
 {
-	public static void main(String args[]) throws IOException
+	public static void main(String args[])
 	{
 		int i =0;
 	      BigInteger f = new BigInteger("0");
@@ -10,8 +10,8 @@ public class helloworld
 	    	  BigInteger a = BigInteger.valueOf(i);
 	    	  if(a.isProbablePrime(10)){
 	    		  f=f.add(a);  
-	    	  } 
-	      }  
+	    	} 
+	 }  
 	  System.out.println(f);	
 	}
 }
